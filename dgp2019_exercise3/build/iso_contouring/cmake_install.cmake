@@ -1,4 +1,4 @@
-# Install script for directory: /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring
+# Install script for directory: /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

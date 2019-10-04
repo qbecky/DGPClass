@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -599,19 +599,6 @@ Experimental/fast:
 .PHONY : Experimental/fast
 
 #=============================================================================
-# Target rules for targets named iso_contouring
-
-# Build rule for target.
-iso_contouring: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 iso_contouring
-.PHONY : iso_contouring
-
-# fast build rule for target.
-iso_contouring/fast:
-	$(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/build
-.PHONY : iso_contouring/fast
-
-#=============================================================================
 # Target rules for targets named isotest
 
 # Build rule for target.
@@ -623,6 +610,19 @@ isotest: cmake_check_build_system
 isotest/fast:
 	$(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/build
 .PHONY : isotest/fast
+
+#=============================================================================
+# Target rules for targets named DGP_HW3
+
+# Build rule for target.
+DGP_HW3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DGP_HW3
+.PHONY : DGP_HW3
+
+# fast build rule for target.
+DGP_HW3/fast:
+	$(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/build
+.PHONY : DGP_HW3/fast
 
 # Help Target
 help:
@@ -670,8 +670,8 @@ help:
 	@echo "... ExperimentalMemCheck"
 	@echo "... Continuous"
 	@echo "... Experimental"
-	@echo "... iso_contouring"
 	@echo "... isotest"
+	@echo "... DGP_HW3"
 .PHONY : help
 
 

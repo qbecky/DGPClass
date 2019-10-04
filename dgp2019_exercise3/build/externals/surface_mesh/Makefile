@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh/CMakeFiles/progress.marks
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh/CMakeFiles/progress.marks
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/clean
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/preinstall
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/preinstall
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/rule:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/CMakeFiles/surface_mesh.dir/rule
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 externals/surface_mesh/CMakeFiles/surface_mesh.dir/rule
 .PHONY : externals/surface_mesh/CMakeFiles/surface_mesh.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ surface_mesh: externals/surface_mesh/CMakeFiles/surface_mesh.dir/rule
 
 # fast build rule for target.
 surface_mesh/fast:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/build
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/build
 .PHONY : surface_mesh/fast
 
 surface_mesh/IO.o: surface_mesh/IO.cpp.o
@@ -177,7 +177,7 @@ surface_mesh/IO.o: surface_mesh/IO.cpp.o
 
 # target to build an object file
 surface_mesh/IO.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o
 .PHONY : surface_mesh/IO.cpp.o
 
 surface_mesh/IO.i: surface_mesh/IO.cpp.i
@@ -186,7 +186,7 @@ surface_mesh/IO.i: surface_mesh/IO.cpp.i
 
 # target to preprocess a source file
 surface_mesh/IO.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i
 .PHONY : surface_mesh/IO.cpp.i
 
 surface_mesh/IO.s: surface_mesh/IO.cpp.s
@@ -195,7 +195,7 @@ surface_mesh/IO.s: surface_mesh/IO.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/IO.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s
 .PHONY : surface_mesh/IO.cpp.s
 
 surface_mesh/IO_obj.o: surface_mesh/IO_obj.cpp.o
@@ -204,7 +204,7 @@ surface_mesh/IO_obj.o: surface_mesh/IO_obj.cpp.o
 
 # target to build an object file
 surface_mesh/IO_obj.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o
 .PHONY : surface_mesh/IO_obj.cpp.o
 
 surface_mesh/IO_obj.i: surface_mesh/IO_obj.cpp.i
@@ -213,7 +213,7 @@ surface_mesh/IO_obj.i: surface_mesh/IO_obj.cpp.i
 
 # target to preprocess a source file
 surface_mesh/IO_obj.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i
 .PHONY : surface_mesh/IO_obj.cpp.i
 
 surface_mesh/IO_obj.s: surface_mesh/IO_obj.cpp.s
@@ -222,7 +222,7 @@ surface_mesh/IO_obj.s: surface_mesh/IO_obj.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/IO_obj.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s
 .PHONY : surface_mesh/IO_obj.cpp.s
 
 surface_mesh/IO_off.o: surface_mesh/IO_off.cpp.o
@@ -231,7 +231,7 @@ surface_mesh/IO_off.o: surface_mesh/IO_off.cpp.o
 
 # target to build an object file
 surface_mesh/IO_off.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o
 .PHONY : surface_mesh/IO_off.cpp.o
 
 surface_mesh/IO_off.i: surface_mesh/IO_off.cpp.i
@@ -240,7 +240,7 @@ surface_mesh/IO_off.i: surface_mesh/IO_off.cpp.i
 
 # target to preprocess a source file
 surface_mesh/IO_off.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i
 .PHONY : surface_mesh/IO_off.cpp.i
 
 surface_mesh/IO_off.s: surface_mesh/IO_off.cpp.s
@@ -249,7 +249,7 @@ surface_mesh/IO_off.s: surface_mesh/IO_off.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/IO_off.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s
 .PHONY : surface_mesh/IO_off.cpp.s
 
 surface_mesh/IO_poly.o: surface_mesh/IO_poly.cpp.o
@@ -258,7 +258,7 @@ surface_mesh/IO_poly.o: surface_mesh/IO_poly.cpp.o
 
 # target to build an object file
 surface_mesh/IO_poly.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o
 .PHONY : surface_mesh/IO_poly.cpp.o
 
 surface_mesh/IO_poly.i: surface_mesh/IO_poly.cpp.i
@@ -267,7 +267,7 @@ surface_mesh/IO_poly.i: surface_mesh/IO_poly.cpp.i
 
 # target to preprocess a source file
 surface_mesh/IO_poly.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i
 .PHONY : surface_mesh/IO_poly.cpp.i
 
 surface_mesh/IO_poly.s: surface_mesh/IO_poly.cpp.s
@@ -276,7 +276,7 @@ surface_mesh/IO_poly.s: surface_mesh/IO_poly.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/IO_poly.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s
 .PHONY : surface_mesh/IO_poly.cpp.s
 
 surface_mesh/IO_stl.o: surface_mesh/IO_stl.cpp.o
@@ -285,7 +285,7 @@ surface_mesh/IO_stl.o: surface_mesh/IO_stl.cpp.o
 
 # target to build an object file
 surface_mesh/IO_stl.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o
 .PHONY : surface_mesh/IO_stl.cpp.o
 
 surface_mesh/IO_stl.i: surface_mesh/IO_stl.cpp.i
@@ -294,7 +294,7 @@ surface_mesh/IO_stl.i: surface_mesh/IO_stl.cpp.i
 
 # target to preprocess a source file
 surface_mesh/IO_stl.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i
 .PHONY : surface_mesh/IO_stl.cpp.i
 
 surface_mesh/IO_stl.s: surface_mesh/IO_stl.cpp.s
@@ -303,7 +303,7 @@ surface_mesh/IO_stl.s: surface_mesh/IO_stl.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/IO_stl.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s
 .PHONY : surface_mesh/IO_stl.cpp.s
 
 surface_mesh/Surface_mesh.o: surface_mesh/Surface_mesh.cpp.o
@@ -312,7 +312,7 @@ surface_mesh/Surface_mesh.o: surface_mesh/Surface_mesh.cpp.o
 
 # target to build an object file
 surface_mesh/Surface_mesh.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o
 .PHONY : surface_mesh/Surface_mesh.cpp.o
 
 surface_mesh/Surface_mesh.i: surface_mesh/Surface_mesh.cpp.i
@@ -321,7 +321,7 @@ surface_mesh/Surface_mesh.i: surface_mesh/Surface_mesh.cpp.i
 
 # target to preprocess a source file
 surface_mesh/Surface_mesh.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i
 .PHONY : surface_mesh/Surface_mesh.cpp.i
 
 surface_mesh/Surface_mesh.s: surface_mesh/Surface_mesh.cpp.s
@@ -330,7 +330,7 @@ surface_mesh/Surface_mesh.s: surface_mesh/Surface_mesh.cpp.s
 
 # target to generate assembly for a file
 surface_mesh/Surface_mesh.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s
 .PHONY : surface_mesh/Surface_mesh.cpp.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

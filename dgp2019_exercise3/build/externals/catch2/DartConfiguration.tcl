@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/catch2
-BuildDirectory: /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/catch2
+SourceDirectory: /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/catch2
+BuildDirectory: /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: icdhcp-2-140.epfl.ch
+Site: IC-LM-201645
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/local/bin/cmake" "/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/catch2"
+ConfigureCommand: "/opt/local/bin/cmake" "/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/catch2"
 MakeCommand: /opt/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -63,7 +63,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-CompilerVersion: 10.0.0.10001145
+CompilerVersion: 11.0.0.11000033
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

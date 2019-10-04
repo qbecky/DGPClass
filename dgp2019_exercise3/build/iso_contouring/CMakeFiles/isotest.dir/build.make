@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 # Include any dependencies generated for this target.
 include iso_contouring/CMakeFiles/isotest.dir/depend.make
@@ -59,29 +59,29 @@ include iso_contouring/CMakeFiles/isotest.dir/flags.make
 
 iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.o: iso_contouring/CMakeFiles/isotest.dir/flags.make
 iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.o: ../iso_contouring/isotest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isotest.dir/isotest.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isotest.dir/isotest.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp
 
 iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isotest.dir/isotest.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp > CMakeFiles/isotest.dir/isotest.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp > CMakeFiles/isotest.dir/isotest.cpp.i
 
 iso_contouring/CMakeFiles/isotest.dir/isotest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isotest.dir/isotest.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp -o CMakeFiles/isotest.dir/isotest.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/isotest.cpp -o CMakeFiles/isotest.dir/isotest.cpp.s
 
 iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.o: iso_contouring/CMakeFiles/isotest.dir/flags.make
 iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.o: ../iso_contouring/viewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isotest.dir/viewer.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/isotest.dir/viewer.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp
 
 iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isotest.dir/viewer.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp > CMakeFiles/isotest.dir/viewer.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp > CMakeFiles/isotest.dir/viewer.cpp.i
 
 iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isotest.dir/viewer.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp -o CMakeFiles/isotest.dir/viewer.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp -o CMakeFiles/isotest.dir/viewer.cpp.s
 
 # Object files for target isotest
 isotest_OBJECTS = \
@@ -97,8 +97,8 @@ iso_contouring/isotest: iso_contouring/CMakeFiles/isotest.dir/build.make
 iso_contouring/isotest: nanogui/libnanogui.a
 iso_contouring/isotest: externals/surface_mesh/libsurface_mesh.1.0.dylib
 iso_contouring/isotest: iso_contouring/CMakeFiles/isotest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable isotest"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/isotest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable isotest"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/isotest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 iso_contouring/CMakeFiles/isotest.dir/build: iso_contouring/isotest
@@ -106,10 +106,10 @@ iso_contouring/CMakeFiles/isotest.dir/build: iso_contouring/isotest
 .PHONY : iso_contouring/CMakeFiles/isotest.dir/build
 
 iso_contouring/CMakeFiles/isotest.dir/clean:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring && $(CMAKE_COMMAND) -P CMakeFiles/isotest.dir/cmake_clean.cmake
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring && $(CMAKE_COMMAND) -P CMakeFiles/isotest.dir/cmake_clean.cmake
 .PHONY : iso_contouring/CMakeFiles/isotest.dir/clean
 
 iso_contouring/CMakeFiles/isotest.dir/depend:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/isotest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/isotest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : iso_contouring/CMakeFiles/isotest.dir/depend
 

@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 # Include any dependencies generated for this target.
 include nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -62,19 +62,19 @@ glfw_OBJECTS =
 
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS = \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o" \
-"/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o"
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o" \
+"/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o"
 
 nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o
 nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o
@@ -91,9 +91,9 @@ nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glf
 nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o
 nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make
 nanogui/ext_build/glfw/src/libglfw3.a: nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C static library libglfw3.a"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build: nanogui/ext_build/glfw/src/libglfw3.a
@@ -101,10 +101,10 @@ nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build: nanogui/ext_build/glfw/src
 .PHONY : nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build
 
 nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/clean
 
 nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/depend
 

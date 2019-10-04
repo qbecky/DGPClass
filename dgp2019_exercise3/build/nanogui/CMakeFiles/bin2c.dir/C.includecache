@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c
 stdlib.h
 -
 stdio.h

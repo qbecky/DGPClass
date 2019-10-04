@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 # Utility rule file for NightlyConfigure.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exerci
 include externals/catch2/CMakeFiles/NightlyConfigure.dir/progress.make
 
 externals/catch2/CMakeFiles/NightlyConfigure:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/catch2 && /opt/local/bin/ctest -D NightlyConfigure
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2 && /opt/local/bin/ctest -D NightlyConfigure
 
 NightlyConfigure: externals/catch2/CMakeFiles/NightlyConfigure
 NightlyConfigure: externals/catch2/CMakeFiles/NightlyConfigure.dir/build.make
@@ -67,10 +67,10 @@ externals/catch2/CMakeFiles/NightlyConfigure.dir/build: NightlyConfigure
 .PHONY : externals/catch2/CMakeFiles/NightlyConfigure.dir/build
 
 externals/catch2/CMakeFiles/NightlyConfigure.dir/clean:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/catch2 && $(CMAKE_COMMAND) -P CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2 && $(CMAKE_COMMAND) -P CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake
 .PHONY : externals/catch2/CMakeFiles/NightlyConfigure.dir/clean
 
 externals/catch2/CMakeFiles/NightlyConfigure.dir/depend:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/catch2 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/catch2 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/catch2/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/catch2 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : externals/catch2/CMakeFiles/NightlyConfigure.dir/depend
 

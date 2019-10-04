@@ -1,4 +1,4 @@
-# Install script for directory: /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh
+# Install script for directory: /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1318,11 +1318,11 @@ vector
 nanogui/widget.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp
 stdint.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp
 nanogui/button.h
 -
 nanogui/theme.h
@@ -1332,7 +1332,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp
 nanogui/checkbox.h
 -
 nanogui/opengl.h
@@ -1344,7 +1344,7 @@ nanogui/entypo.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp
 nanogui/colorpicker.h
 -
 nanogui/layout.h
@@ -1352,7 +1352,7 @@ nanogui/layout.h
 nanogui/colorwheel.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp
 nanogui/colorwheel.h
 -
 nanogui/theme.h
@@ -1366,7 +1366,7 @@ Eigen/QR
 Eigen/Geometry
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp
 nanogui/combobox.h
 -
 nanogui/layout.h
@@ -1376,7 +1376,7 @@ nanogui/serializer/core.h
 cassert
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp
 nanogui/screen.h
 -
 windows.h
@@ -1398,13 +1398,13 @@ signal.h
 sys/dir.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm
 nanogui/nanogui.h
 -
 Cocoa/Cocoa.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp
 nanogui/glutil.h
 -
 iostream
@@ -1412,7 +1412,7 @@ iostream
 fstream
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp
 nanogui/graph.h
 -
 nanogui/theme.h
@@ -1422,13 +1422,13 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp
 nanogui/imagepanel.h
 -
 nanogui/opengl.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp
 nanogui/imageview.h
 -
 nanogui/window.h
@@ -1440,7 +1440,7 @@ nanogui/theme.h
 cmath
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp
 nanogui/label.h
 -
 nanogui/theme.h
@@ -1450,7 +1450,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp
 nanogui/layout.h
 -
 nanogui/widget.h
@@ -1464,7 +1464,7 @@ nanogui/label.h
 numeric
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp
 nanogui/messagedialog.h
 -
 nanogui/layout.h
@@ -1476,7 +1476,7 @@ nanogui/entypo.h
 nanogui/label.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp
 nanogui/popup.h
 -
 nanogui/theme.h
@@ -1486,7 +1486,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp
 nanogui/popupbutton.h
 -
 nanogui/entypo.h
@@ -1498,7 +1498,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp
 nanogui/progressbar.h
 -
 nanogui/opengl.h
@@ -1506,7 +1506,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp
 nanogui/screen.h
 -
 nanogui/theme.h
@@ -1528,13 +1528,13 @@ GLFW/glfw3native.h
 nanovg_gl.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp
 nanogui/serializer/core.h
 -
 iostream
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp
 nanogui/slider.h
 -
 nanogui/theme.h
@@ -1544,11 +1544,11 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp
 nanogui/stackedwidget.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp
 nanogui/tabheader.h
 -
 nanogui/theme.h
@@ -1560,7 +1560,7 @@ nanogui/entypo.h
 numeric
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp
 nanogui/tabwidget.h
 -
 nanogui/tabheader.h
@@ -1578,7 +1578,7 @@ nanogui/screen.h
 algorithm
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp
 nanogui/window.h
 -
 nanogui/screen.h
@@ -1598,7 +1598,7 @@ regex
 iostream
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp
 nanogui/theme.h
 -
 nanogui/opengl.h
@@ -1606,7 +1606,7 @@ nanogui/opengl.h
 nanogui_resources.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp
 nanogui/vscrollpanel.h
 -
 nanogui/theme.h
@@ -1616,7 +1616,7 @@ nanogui/opengl.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp
 nanogui/widget.h
 -
 nanogui/layout.h
@@ -1632,7 +1632,7 @@ nanogui/screen.h
 nanogui/serializer/core.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp
 nanogui/window.h
 -
 nanogui/theme.h

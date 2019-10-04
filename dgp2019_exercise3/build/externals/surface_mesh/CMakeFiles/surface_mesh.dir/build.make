@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3
+CMAKE_SOURCE_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build
+CMAKE_BINARY_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build
 
 # Include any dependencies generated for this target.
 include externals/surface_mesh/CMakeFiles/surface_mesh.dir/depend.make
@@ -59,81 +59,81 @@ include externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o: ../externals/surface_mesh/surface_mesh/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO.cpp.s
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o: ../externals/surface_mesh/surface_mesh/IO_obj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_obj.cpp.s
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o: ../externals/surface_mesh/surface_mesh/IO_off.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_off.cpp.s
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o: ../externals/surface_mesh/surface_mesh/IO_poly.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_poly.cpp.s
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o: ../externals/surface_mesh/surface_mesh/IO_stl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/IO_stl.cpp.s
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o: externals/surface_mesh/CMakeFiles/surface_mesh.dir/flags.make
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o: ../externals/surface_mesh/surface_mesh/Surface_mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o -c /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o -c /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp > CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.i
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp -o CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.s
 
 # Object files for target surface_mesh
 surface_mesh_OBJECTS = \
@@ -155,9 +155,9 @@ externals/surface_mesh/libsurface_mesh.1.0.dylib: externals/surface_mesh/CMakeFi
 externals/surface_mesh/libsurface_mesh.1.0.dylib: externals/surface_mesh/CMakeFiles/surface_mesh.dir/surface_mesh/Surface_mesh.cpp.o
 externals/surface_mesh/libsurface_mesh.1.0.dylib: externals/surface_mesh/CMakeFiles/surface_mesh.dir/build.make
 externals/surface_mesh/libsurface_mesh.1.0.dylib: externals/surface_mesh/CMakeFiles/surface_mesh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libsurface_mesh.dylib"
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/surface_mesh.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -E cmake_symlink_library libsurface_mesh.1.0.dylib libsurface_mesh.1.0.dylib libsurface_mesh.dylib
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libsurface_mesh.dylib"
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/surface_mesh.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -E cmake_symlink_library libsurface_mesh.1.0.dylib libsurface_mesh.1.0.dylib libsurface_mesh.dylib
 
 externals/surface_mesh/libsurface_mesh.dylib: externals/surface_mesh/libsurface_mesh.1.0.dylib
 	@$(CMAKE_COMMAND) -E touch_nocreate externals/surface_mesh/libsurface_mesh.dylib
@@ -168,10 +168,10 @@ externals/surface_mesh/CMakeFiles/surface_mesh.dir/build: externals/surface_mesh
 .PHONY : externals/surface_mesh/CMakeFiles/surface_mesh.dir/build
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/clean:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -P CMakeFiles/surface_mesh.dir/cmake_clean.cmake
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh && $(CMAKE_COMMAND) -P CMakeFiles/surface_mesh.dir/cmake_clean.cmake
 .PHONY : externals/surface_mesh/CMakeFiles/surface_mesh.dir/clean
 
 externals/surface_mesh/CMakeFiles/surface_mesh.dir/depend:
-	cd /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/externals/surface_mesh/CMakeFiles/surface_mesh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/surface_mesh/CMakeFiles/surface_mesh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : externals/surface_mesh/CMakeFiles/surface_mesh.dir/depend
 

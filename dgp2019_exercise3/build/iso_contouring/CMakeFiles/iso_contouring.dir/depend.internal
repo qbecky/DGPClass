@@ -220,8 +220,8 @@ iso_contouring/CMakeFiles/iso_contouring.dir/implicit_functions.cpp.o
  ../externals/surface_mesh/surface_mesh/Vector.h
  ../externals/surface_mesh/surface_mesh/properties.h
  ../externals/surface_mesh/surface_mesh/types.h
- /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/implicit_functions.cpp
- /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h
+ /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/implicit_functions.cpp
+ /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h
 iso_contouring/CMakeFiles/iso_contouring.dir/viewer.cpp.o
  ../externals/nanogui/ext/eigen/Eigen/Cholesky
  ../externals/nanogui/ext/eigen/Eigen/Core
@@ -441,5 +441,5 @@ iso_contouring/CMakeFiles/iso_contouring.dir/viewer.cpp.o
  ../externals/surface_mesh/surface_mesh/Vector.h
  ../externals/surface_mesh/surface_mesh/properties.h
  ../externals/surface_mesh/surface_mesh/types.h
- /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp
- /Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h
+ /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp
+ /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h

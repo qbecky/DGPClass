@@ -44,31 +44,31 @@ typeinfo
 surface_mesh/Vector.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO.cpp
 surface_mesh/IO.h
 -
 clocale
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_obj.cpp
 surface_mesh/IO.h
 -
 cstdio
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_off.cpp
 surface_mesh/IO.h
 -
 cstdio
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_poly.cpp
 surface_mesh/IO.h
 -
 cstdio
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/IO_stl.cpp
 surface_mesh/IO.h
 -
 cstdio
@@ -78,7 +78,7 @@ cfloat
 map
 -
 
-/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/surface_mesh/surface_mesh/Surface_mesh.cpp
 surface_mesh/Surface_mesh.h
 -
 surface_mesh/IO.h

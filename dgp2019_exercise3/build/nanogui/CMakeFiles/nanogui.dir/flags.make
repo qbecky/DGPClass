@@ -3,17 +3,17 @@
 
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
-C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG  
+C_FLAGS =  -Wno-deprecated-declarations -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  
 
 C_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
-C_INCLUDES = -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/include -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro 
+C_INCLUDES = -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro 
 
-CXX_FLAGS =  -std=c++11 -w -Wall -Wextra -std=c++14 -O3 -DNDEBUG   -std=gnu++11
+CXX_FLAGS =  -std=c++11 -w -Wall -Wextra -std=c++14 -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -std=gnu++11
 
 CXX_DEFINES = -DCORO_SJLJ -DNANOGUI_BUILD
 
-CXX_INCLUDES = -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/include -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/build/nanogui -I/Users/qbecker/Documents/Fall2019/DGP/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro 
+CXX_INCLUDES = -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -I/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro 
 
 # Custom defines: nanogui/CMakeFiles/nanogui.dir/ext/nanovg/src/nanovg.c.o_DEFINES = NVG_BUILD
 
