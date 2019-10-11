@@ -1156,10 +1156,6 @@ typeinfo
 surface_mesh/Vector.h
 -
 
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/implicit_functions.cpp
-viewer.h
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h
-
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.cpp
 viewer.h
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/iso_contouring/viewer.h

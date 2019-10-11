@@ -68,38 +68,6 @@ install/local/fast: preinstall/fast
 	/opt/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/opt/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -123,6 +91,38 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/opt/local/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/opt/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -157,6 +157,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+iso_contouring/CMakeFiles/iso_contouring.dir/rule:
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 iso_contouring/CMakeFiles/iso_contouring.dir/rule
+.PHONY : iso_contouring/CMakeFiles/iso_contouring.dir/rule
+
+# Convenience name for target.
+iso_contouring: iso_contouring/CMakeFiles/iso_contouring.dir/rule
+
+.PHONY : iso_contouring
+
+# fast build rule for target.
+iso_contouring/fast:
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/build
+.PHONY : iso_contouring/fast
+
+# Convenience name for target.
 iso_contouring/CMakeFiles/isotest.dir/rule:
 	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 iso_contouring/CMakeFiles/isotest.dir/rule
 .PHONY : iso_contouring/CMakeFiles/isotest.dir/rule
@@ -171,28 +186,13 @@ isotest/fast:
 	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/build
 .PHONY : isotest/fast
 
-# Convenience name for target.
-iso_contouring/CMakeFiles/DGP_HW3.dir/rule:
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f CMakeFiles/Makefile2 iso_contouring/CMakeFiles/DGP_HW3.dir/rule
-.PHONY : iso_contouring/CMakeFiles/DGP_HW3.dir/rule
-
-# Convenience name for target.
-DGP_HW3: iso_contouring/CMakeFiles/DGP_HW3.dir/rule
-
-.PHONY : DGP_HW3
-
-# fast build rule for target.
-DGP_HW3/fast:
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/build
-.PHONY : DGP_HW3/fast
-
 implicit_functions.o: implicit_functions.cpp.o
 
 .PHONY : implicit_functions.o
 
 # target to build an object file
 implicit_functions.cpp.o:
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/implicit_functions.cpp.o
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/implicit_functions.cpp.o
 .PHONY : implicit_functions.cpp.o
 
 implicit_functions.i: implicit_functions.cpp.i
@@ -201,7 +201,7 @@ implicit_functions.i: implicit_functions.cpp.i
 
 # target to preprocess a source file
 implicit_functions.cpp.i:
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/implicit_functions.cpp.i
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/implicit_functions.cpp.i
 .PHONY : implicit_functions.cpp.i
 
 implicit_functions.s: implicit_functions.cpp.s
@@ -210,7 +210,7 @@ implicit_functions.s: implicit_functions.cpp.s
 
 # target to generate assembly for a file
 implicit_functions.cpp.s:
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/implicit_functions.cpp.s
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/implicit_functions.cpp.s
 .PHONY : implicit_functions.cpp.s
 
 isotest.o: isotest.cpp.o
@@ -246,8 +246,8 @@ viewer.o: viewer.cpp.o
 
 # target to build an object file
 viewer.cpp.o:
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/viewer.cpp.o
 	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.o
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/viewer.cpp.o
 .PHONY : viewer.cpp.o
 
 viewer.i: viewer.cpp.i
@@ -256,8 +256,8 @@ viewer.i: viewer.cpp.i
 
 # target to preprocess a source file
 viewer.cpp.i:
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/viewer.cpp.i
 	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.i
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/viewer.cpp.i
 .PHONY : viewer.cpp.i
 
 viewer.s: viewer.cpp.s
@@ -266,8 +266,8 @@ viewer.s: viewer.cpp.s
 
 # target to generate assembly for a file
 viewer.cpp.s:
+	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/viewer.cpp.s
 	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/viewer.cpp.s
-	cd /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build && $(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/viewer.cpp.s
 .PHONY : viewer.cpp.s
 
 # Help Target
@@ -277,13 +277,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... isotest"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... DGP_HW3"
+	@echo "... rebuild_cache"
+	@echo "... iso_contouring"
+	@echo "... edit_cache"
+	@echo "... isotest"
+	@echo "... list_install_components"
 	@echo "... implicit_functions.o"
 	@echo "... implicit_functions.i"
 	@echo "... implicit_functions.s"

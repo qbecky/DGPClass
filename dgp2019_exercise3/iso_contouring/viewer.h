@@ -656,8 +656,8 @@ private:
 
 public:
     // Variables for the viewer
-    nanogui::GLShader mShader;
-     nanogui::GLShader mShaderNormals;
+    nanogui::GLShader mShader; // Mesh rendering
+    nanogui::GLShader mShaderNormals; // Iso contours
     nanogui::Window *window;
     nanogui::Arcball arcball;
 

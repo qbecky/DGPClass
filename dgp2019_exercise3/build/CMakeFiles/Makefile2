@@ -161,7 +161,7 @@ nanogui/CMakeFiles/nanogui.dir/clean:
 nanogui/CMakeFiles/bin2c.dir/all:
 	$(MAKE) -f nanogui/CMakeFiles/bin2c.dir/build.make nanogui/CMakeFiles/bin2c.dir/depend
 	$(MAKE) -f nanogui/CMakeFiles/bin2c.dir/build.make nanogui/CMakeFiles/bin2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=4,5 "Built target bin2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=1,2 "Built target bin2c"
 .PHONY : nanogui/CMakeFiles/bin2c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +226,7 @@ nanogui/ext_build/glfw/src/preinstall:
 nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all:
 	$(MAKE) -f nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/depend
 	$(MAKE) -f nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build.make nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target glfw_objects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target glfw_objects"
 .PHONY : nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +253,7 @@ nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/clean:
 nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/all: nanogui/ext_build/glfw/src/CMakeFiles/glfw_objects.dir/all
 	$(MAKE) -f nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build.make nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=6 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=3 "Built target glfw"
 .PHONY : nanogui/ext_build/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1123,14 +1123,14 @@ externals/catch2/CMakeFiles/Experimental.dir/clean:
 # Directory level rules for directory iso_contouring
 
 # Recursive "all" directory target.
+iso_contouring/all: iso_contouring/CMakeFiles/iso_contouring.dir/all
 iso_contouring/all: iso_contouring/CMakeFiles/isotest.dir/all
-iso_contouring/all: iso_contouring/CMakeFiles/DGP_HW3.dir/all
 
 .PHONY : iso_contouring/all
 
 # Recursive "clean" directory target.
+iso_contouring/clean: iso_contouring/CMakeFiles/iso_contouring.dir/clean
 iso_contouring/clean: iso_contouring/CMakeFiles/isotest.dir/clean
-iso_contouring/clean: iso_contouring/CMakeFiles/DGP_HW3.dir/clean
 
 .PHONY : iso_contouring/clean
 
@@ -1138,6 +1138,34 @@ iso_contouring/clean: iso_contouring/CMakeFiles/DGP_HW3.dir/clean
 iso_contouring/preinstall:
 
 .PHONY : iso_contouring/preinstall
+
+#=============================================================================
+# Target rules for target iso_contouring/CMakeFiles/iso_contouring.dir
+
+# All Build rule for target.
+iso_contouring/CMakeFiles/iso_contouring.dir/all: nanogui/CMakeFiles/nanogui.dir/all
+iso_contouring/CMakeFiles/iso_contouring.dir/all: externals/surface_mesh/CMakeFiles/surface_mesh.dir/all
+	$(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/depend
+	$(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=17,18,19 "Built target iso_contouring"
+.PHONY : iso_contouring/CMakeFiles/iso_contouring.dir/all
+
+# Build rule for subdir invocation for target.
+iso_contouring/CMakeFiles/iso_contouring.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 57
+	$(MAKE) -f CMakeFiles/Makefile2 iso_contouring/CMakeFiles/iso_contouring.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
+.PHONY : iso_contouring/CMakeFiles/iso_contouring.dir/rule
+
+# Convenience name for target.
+iso_contouring: iso_contouring/CMakeFiles/iso_contouring.dir/rule
+
+.PHONY : iso_contouring
+
+# clean rule for target.
+iso_contouring/CMakeFiles/iso_contouring.dir/clean:
+	$(MAKE) -f iso_contouring/CMakeFiles/iso_contouring.dir/build.make iso_contouring/CMakeFiles/iso_contouring.dir/clean
+.PHONY : iso_contouring/CMakeFiles/iso_contouring.dir/clean
 
 #=============================================================================
 # Target rules for target iso_contouring/CMakeFiles/isotest.dir
@@ -1166,34 +1194,6 @@ isotest: iso_contouring/CMakeFiles/isotest.dir/rule
 iso_contouring/CMakeFiles/isotest.dir/clean:
 	$(MAKE) -f iso_contouring/CMakeFiles/isotest.dir/build.make iso_contouring/CMakeFiles/isotest.dir/clean
 .PHONY : iso_contouring/CMakeFiles/isotest.dir/clean
-
-#=============================================================================
-# Target rules for target iso_contouring/CMakeFiles/DGP_HW3.dir
-
-# All Build rule for target.
-iso_contouring/CMakeFiles/DGP_HW3.dir/all: nanogui/CMakeFiles/nanogui.dir/all
-iso_contouring/CMakeFiles/DGP_HW3.dir/all: externals/surface_mesh/CMakeFiles/surface_mesh.dir/all
-	$(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/depend
-	$(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles --progress-num=1,2,3 "Built target DGP_HW3"
-.PHONY : iso_contouring/CMakeFiles/DGP_HW3.dir/all
-
-# Build rule for subdir invocation for target.
-iso_contouring/CMakeFiles/DGP_HW3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 57
-	$(MAKE) -f CMakeFiles/Makefile2 iso_contouring/CMakeFiles/DGP_HW3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/CMakeFiles 0
-.PHONY : iso_contouring/CMakeFiles/DGP_HW3.dir/rule
-
-# Convenience name for target.
-DGP_HW3: iso_contouring/CMakeFiles/DGP_HW3.dir/rule
-
-.PHONY : DGP_HW3
-
-# clean rule for target.
-iso_contouring/CMakeFiles/DGP_HW3.dir/clean:
-	$(MAKE) -f iso_contouring/CMakeFiles/DGP_HW3.dir/build.make iso_contouring/CMakeFiles/DGP_HW3.dir/clean
-.PHONY : iso_contouring/CMakeFiles/DGP_HW3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

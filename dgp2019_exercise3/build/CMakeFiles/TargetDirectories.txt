@@ -69,10 +69,10 @@
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2/CMakeFiles/Continuous.dir
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/externals/catch2/CMakeFiles/Experimental.dir
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/install/local.dir
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/list_install_components.dir
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/rebuild_cache.dir
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/edit_cache.dir
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/isotest.dir
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/install/strip.dir
 /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/install.dir
-/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/DGP_HW3.dir
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/rebuild_cache.dir
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/iso_contouring.dir
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/edit_cache.dir
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/isotest.dir
+/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/iso_contouring/CMakeFiles/list_install_components.dir
