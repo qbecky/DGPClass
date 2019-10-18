@@ -119,11 +119,11 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
 
     // ----- add your code here -----
     
-    std::vector<Point> current_triangle;
-    std::vector<int> current_signs;
+    std::vector<Point> current_triangle(3);
+    std::vector<int> current_signs(3);
 
-    Point init_point;
-    Point end_point;
+    Point *init_point(0);
+    Point *end_point(0);
 
     float slope_tmp(0);
 
@@ -137,23 +137,23 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
 
         if(current_signs[0] * current_signs[1] != 1) {
             
-            init_point = compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
+            init_point = &compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
 
             if(current_signs[1] * current_signs[2] != 1) {
                 
-                end_point = compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
+                end_point = &compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
 
-                segment_points.push_back(init_point);
-                segment_points.push_back(end_point);
+                segment_points.push_back(*init_point);
+                segment_points.push_back(*end_point);
 
             }
 
             else if(current_signs[0] * current_signs[2] != 1) {
                 
-                end_point = compute_zero_point(current_triangle[0], current_triangle[2], iso_value);
+                end_point = &compute_zero_point(current_triangle[0], current_triangle[2], iso_value);
 
-                segment_points.push_back(init_point);
-                segment_points.push_back(end_point);
+                segment_points.push_back(*init_point);
+                segment_points.push_back(*end_point);
 
             }
 
@@ -161,14 +161,14 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
 
         else if(current_signs[1] * current_signs[2] != 1) {
             
-            init_point = compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
+            init_point = &compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
 
             if(current_signs[0] * current_signs[2] != 1) {
                 
-                end_point = compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
+                end_point = &compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
 
-                segment_points.push_back(init_point);
-                segment_points.push_back(end_point);
+                segment_points.push_back(*init_point);
+                segment_points.push_back(*end_point);
 
             }
 
