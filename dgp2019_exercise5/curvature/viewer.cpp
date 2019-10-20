@@ -119,6 +119,36 @@ void Viewer::computeNormalsWithConstantWeights() {
     // technique (see .pdf) and store it inside v_cste_weights_n[v]
     // ------------- IMPLEMENT HERE ---------
 
+    Mesh::Vertex_iterator v_it, v_begin, v_end;
+    Mesh::Vertex_around_vertex_circulator vc, vc_end;
+    
+    //Range
+    v_begin = mesh.vertices_begin();
+    v_end   = mesh.vertices_end();
+
+    for(v_it = v_begin, v_it != v_end, ++v_it) {
+        Point normal_tmp(0.0, 0.0, 0.0);
+        Point p0 = mesh.position(v_it);
+
+        vc = mesh.vertices(v_it);
+        vend = vc;
+
+        do {
+            Point p1 = mesh.position(vc);
+            Point p2 = mesh.position(vc++);
+
+            Vec3 v1 = p1 - p0;
+            Vec3 v2 = p2 - p0;
+
+            normal_tmp = normal_tmp + normalize(cross(v1, v2));
+
+
+        }{while ++vc != vend};
+
+        Vec3 normal_tmp_norm = normalize(normal_tmp);
+        v_cste_weights_n[v_it] = normal_tmp_norm;
+    }
+
     
 }
 
@@ -134,6 +164,38 @@ void Viewer::computeNormalsByAreaWeights() {
     // Compute the normals for each vertex v in the mesh using the weights proportionals
     // to the areas technique (see .pdf) and store inside v_area_weights_n[v]
     // ------------- IMPLEMENT HERE ---------
+
+
+    Mesh::Vertex_iterator v_it, v_begin, v_end;
+    Mesh::Vertex_around_vertex_circulator vc, vc_end;
+    
+    //Range
+    v_begin = mesh.vertices_begin();
+    v_end   = mesh.vertices_end();
+
+    for(v_it = v_begin, v_it != v_end, ++v_it) {
+        Point normal_tmp(0.0, 0.0, 0.0);
+        Point p0 = mesh.position(v_it);
+
+        vc = mesh.vertices(v_it);
+        vend = vc;
+
+        do {
+            Point p1 = mesh.position(vc);
+            Point p2 = mesh.position(vc++);
+
+            Vec3 v1 = p1 - p0;
+            Vec3 v2 = p2 - p0;
+
+            normal_tmp = normal_tmp + cross(v1, v2); // The norm of the cross product is the area,
+                                                               // no need to normalize the vector for the weights
+
+
+        }{while ++vc != vend};
+
+        Vec3 normal_tmp_norm = normalize(normal_tmp);
+        v_cste_weights_n[v_it] = normal_tmp_norm;
+    }
 
     
 }
@@ -151,6 +213,36 @@ void Viewer::computeNormalsWithAngleWeights() {
     // to the angles technique (see .pdf) and store it inside v_angle_weights_n[v]
     // ------------- IMPLEMENT HERE ---------
 
+
+    Mesh::Vertex_iterator v_it, v_begin, v_end;
+    Mesh::Vertex_around_vertex_circulator vc, vc_end;
+    
+    //Range
+    v_begin = mesh.vertices_begin();
+    v_end   = mesh.vertices_end();
+
+    for(v_it = v_begin, v_it != v_end, ++v_it) {
+        Point normal_tmp(0.0, 0.0, 0.0);
+        Point p0 = mesh.position(v_it);
+
+        vc = mesh.vertices(v_it);
+        vend = vc;
+
+        do {
+            Point p1 = mesh.position(vc);
+            Point p2 = mesh.position(vc++);
+
+            Vec3 v1 = p1 - p0;
+            Vec3 v2 = p2 - p0;
+            Scalar theta = dot(normalize(v1), normalize(v2));
+
+            normal_tmp = normal_tmp + theta*normalize(cross(v1, v2)); 
+
+        }{while ++vc != vend};
+
+        Vec3 normal_tmp_norm = normalize(normal_tmp);
+        v_cste_weights_n[v_it] = normal_tmp_norm;
+    }
     
 }
 

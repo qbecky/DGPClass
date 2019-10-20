@@ -12,6 +12,7 @@
 
 int main(int /* argc */, char ** /* argv */) {
     try {
+        // This is the renderer, infinite loop until closed
         nanogui::init();
         {
             nanogui::ref<Viewer> app = new Viewer();

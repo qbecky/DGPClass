@@ -1,0 +1,1671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5F2FB05BF5C74D4799772B7F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 162FE1F98F29437B9375C478 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E75751847EC64AAC9DC4333B /* CMake Rules */,
+			);
+			dependencies = (
+				2D3B207DBB4948B7ABBDDBDF /* PBXTargetDependency */,
+				940D6B0565E34C40BB5CD618 /* PBXTargetDependency */,
+				180916FE178B4DEAB8C67037 /* PBXTargetDependency */,
+				3A933EF16DC74B52870EC00A /* PBXTargetDependency */,
+				1869B822200748328192A642 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8BE8DD9B341B4E5991533230 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B4D80700F6F4BCF89BD853C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3CA0D9C5FA854B1E8C864D01 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3077A224B9E34448B86ABCA2 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D2FF801D0D204596928B0D6E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54519FAAA9EA4DEBA3A43073 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7F8C79334049403EADABB11E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01646D9932C64BE28ED14632 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/layout.h */ = {isa = PBXBuildFile; fileRef = C03631E5929643DB9573CB53 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/layout.h */; };
+		04DE54DCDB9E43588FFFF3EB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imageview.h */ = {isa = PBXBuildFile; fileRef = 4B9BC4A88906459C89A0AAC8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imageview.h */; };
+		05FAF6B46BE04F9A96D5381A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = D55AFB2BD3AA403499760270 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/input.c */; };
+		08F9BF6D4560441DBC0F3F49 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA607CCB526D491588578FC9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */; };
+		1204BDD494164E7ABC42B86D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/vscrollpanel.h */ = {isa = PBXBuildFile; fileRef = 78C58BE4CCD44C9D8834BEEC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/vscrollpanel.h */; };
+		13D026F53AE748CAA7A5049B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popup.h */ = {isa = PBXBuildFile; fileRef = 43A8D4F92C444F0EB5B4134E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popup.h */; };
+		1418E5241CE44761ACF73D64 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp.rule */ = {isa = PBXBuildFile; fileRef = DF789AD666D848F1A41CF4EE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp.rule */; };
+		16E6DDD49A5D464D958202C6 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/core.h */ = {isa = PBXBuildFile; fileRef = E8D8FE4E68C247AE87927BC4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/core.h */; };
+		19314B38354F483B9AA4EAF2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/button.h */ = {isa = PBXBuildFile; fileRef = B9BB047F511B45B0A4BD9B19 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/button.h */; };
+		1CB7D4F1E08C4AAFB5C711E7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/sparse.h */ = {isa = PBXBuildFile; fileRef = DC84EF984130482CA65D963C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/sparse.h */; };
+		1DB53D5ABF2F4BB28593870A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp */ = {isa = PBXBuildFile; fileRef = 97EE377736ED4EBAAEC8BB37 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp */; };
+		20E3F0ADB24E49F8B2CAE101 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp */ = {isa = PBXBuildFile; fileRef = B140C9D5C9E940A19D6B70B7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp */; };
+		21388B5CAD384C8AA919ED38 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 17A0172C35D94694BF604D8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/monitor.c */; };
+		248C8DC8BABB40359CC0B1D5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/opengl.h */ = {isa = PBXBuildFile; fileRef = A6FE4EDEBDB6444CB692F90B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/opengl.h */; };
+		2EBE0A5BD03E454899254936 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp */ = {isa = PBXBuildFile; fileRef = 66DB1C3F24F84C3D8C59FADD /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp */; };
+		30193297052A4B55938AAB9C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp */ = {isa = PBXBuildFile; fileRef = AFFF8B3C7BC847329696A7B8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp */; };
+		3027720955EF4A4C8DDDA5EF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp */ = {isa = PBXBuildFile; fileRef = A4C76790A61A4544A10CEE8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp */; };
+		32DA7EEEAE514D0587F9DBA2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/theme.h */ = {isa = PBXBuildFile; fileRef = 630738C8AFCD4F4A9B5C1037 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/theme.h */; };
+		33F98E4FAB164BFF83C08465 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabheader.h */ = {isa = PBXBuildFile; fileRef = 2D1CC8CE38F04E37B56E1CE1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabheader.h */; };
+		3A063694BC1643ED8106D058 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorpicker.h */ = {isa = PBXBuildFile; fileRef = D856A15CDB6541C49140AAC2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorpicker.h */; };
+		3BA416A705E04BB4BDD7392A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp */ = {isa = PBXBuildFile; fileRef = C935D8EFD6F54C44B0BD4DB9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp */; };
+		4173A3C5F21348C5899CDC3D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/slider.h */ = {isa = PBXBuildFile; fileRef = EA59B22FBFA44655AEB8C785 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/slider.h */; };
+		41F7A55CCFA2462CA7301279 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp */ = {isa = PBXBuildFile; fileRef = 87D964A9CA9244E086D81421 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp */; };
+		42C09E6D194B472CBD5A44D5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 9077F8B7BC8B46D296186846 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.m */; };
+		44D35EE4A11F4577883E6391 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm */ = {isa = PBXBuildFile; fileRef = 372BAB3BB7DC4E5A90FF395F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm */; };
+		4513CB63F4C944F5BAFF0185 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp */ = {isa = PBXBuildFile; fileRef = 4550AFA5A81548599781E6B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp */; };
+		4ADCE2BA82714A27A84BCA88 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/graph.h */ = {isa = PBXBuildFile; fileRef = ACBC10A6A15A40E5B999BE45 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/graph.h */; };
+		4D956432DB17475085A245E1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/combobox.h */ = {isa = PBXBuildFile; fileRef = 5FE3EBC480EE4EF692CB08EA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/combobox.h */; };
+		50295A8C13FC4DCEBDBFA018 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 0FB27B6C41AF4A628309D6CC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.m */; };
+		50490243335D4ED18E1D446A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 0225397EAA694924A54C9E6A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3native.h */; };
+		511733B9ED0D4CA4901385BE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/nanogui.h */ = {isa = PBXBuildFile; fileRef = 5260483186BD47BABEF09688 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/nanogui.h */; };
+		51B0D6FDFD5F4770A861D336 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp */ = {isa = PBXBuildFile; fileRef = 58B31777E6E14AC2B695962E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp */; };
+		569625BF894545838FC74B55 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 97D22750CB39484EB9B98F42 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */; };
+		5E07676546F042A58CA03D67 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp */ = {isa = PBXBuildFile; fileRef = 871B7D20E45843C2A8076256 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp */; };
+		5E5ED4FC7A274102A7372BF2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F9F7BC0A4D594EA78D526ED1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */; };
+		67E0598563994D41A0BB7317 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popupbutton.h */ = {isa = PBXBuildFile; fileRef = 09050A30FAF34F15B47E06C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popupbutton.h */; };
+		6CC75BB132C04CDFB6E83404 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = ADD17DBA51304D5CB1DEB887 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.h */; };
+		7045A5C7815D4F91A5C1E8F7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/stackedwidget.h */ = {isa = PBXBuildFile; fileRef = 07D9D2608B14484290C2339B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/stackedwidget.h */; };
+		7375F1FA60B64338A080B269 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp */ = {isa = PBXBuildFile; fileRef = 16626B7938AD4F8BBD8882EB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp */; };
+		73D258DA5EFB411DA428A083 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = F823C3C30DE547C0B263CA09 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_window.m */; };
+		74D7DBE0EF374C09BAE67D68 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = D1B9C6F12CB94A26AF587316 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/internal.h */; };
+		7A650BD10258457BB9E98AF5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src/nanovg.c */ = {isa = PBXBuildFile; fileRef = 38AF1D1507AB4E2684422911 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src/nanovg.c */; settings = {COMPILER_FLAGS = "-DNVG_BUILD "; }; };
+		7B3498693FA44C45B435B516 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 95EF1AA425A54ABE96E96FCC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/vulkan.c */; };
+		7BE73290AFDA411EB2369506 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp */ = {isa = PBXBuildFile; fileRef = 7D7836A7DE4244859681B703 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp */; };
+		7C31BEE2B46445BDB3FA8F4D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp */ = {isa = PBXBuildFile; fileRef = 9C878A78B94B43F6B937B1E3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp */; };
+		7E2519FC425B4C23A62CDB87 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp */ = {isa = PBXBuildFile; fileRef = 0AFEAA84CD0A489484FF67A2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp */; };
+		7F70E24342E74D2DA4D43E03 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/messagedialog.h */ = {isa = PBXBuildFile; fileRef = B370265D9DB7482BB6963D22 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/messagedialog.h */; };
+		82EBF530FFB245D1AE8841C5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp */ = {isa = PBXBuildFile; fileRef = 3A759F7EDF644AF68DD3F31F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp */; };
+		84E0E86A4DC942D0A901157E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 917FCE8011D34768B862302B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_init.m */; };
+		89170DB658C249F99DEB4535 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorwheel.h */ = {isa = PBXBuildFile; fileRef = 63203A1C8F5145B78C30F989 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorwheel.h */; };
+		8A8342BCC85F453888C6051C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp */ = {isa = PBXBuildFile; fileRef = 5B8BFA66B3AD4B5C8D2455C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp */; };
+		8C0C0A72B2F546EF803C001E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp */ = {isa = PBXBuildFile; fileRef = 07D95C5B51C4459A9F55AD66 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp */; };
+		8C8073C1B29A485E8BE73C61 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/glutil.h */ = {isa = PBXBuildFile; fileRef = F738B02A5BB94DDF9F9F4F33 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/glutil.h */; };
+		99CA7E11262C4C69B5573DC7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp */ = {isa = PBXBuildFile; fileRef = 587A03CD73714699B4964742 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp */; };
+		99FE064134424E6B863BE014 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 7C076CBC5C564BE6BDA8D6B3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/glfw_config.h */; };
+		9FA5C7E2EDE44F549F685D96 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp */ = {isa = PBXBuildFile; fileRef = F9550DBB3A8C4D5A8E399A7B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp */; };
+		A320865EF5C541B1A903E87E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/checkbox.h */ = {isa = PBXBuildFile; fileRef = 08CAB34521D44C28994124B0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/checkbox.h */; };
+		A577945D207A49A08518A281 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 9F7E9270C5F7479CA410B8D0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_platform.h */; };
+		A7D87B7AFC7543A498B6CE18 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp */ = {isa = PBXBuildFile; fileRef = 760F0656ED0949218308404D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp */; };
+		A8D49C3DE2C44FCA807FE507 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 9CFDD9ED75D942B2B1A061FE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/init.c */; };
+		A8F8DEA9EFCA46CCB084DCCA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imagepanel.h */ = {isa = PBXBuildFile; fileRef = BA55741BC7E748AEB02CC6A4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imagepanel.h */; };
+		A901C5FE3F10465F909DE5F1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp */ = {isa = PBXBuildFile; fileRef = 0979B1AE041E4215AD715681 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp */; };
+		AA247D087ACD402C9EAD7CBF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/window.h */ = {isa = PBXBuildFile; fileRef = 818E870E379445189806C544 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/window.h */; };
+		AB1470CB76B44FF09AF63BE7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 852089AD8E5749C59EB73239 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */; };
+		AE414A129EB44C0F8444C0BF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 00739530F4944BC1B6FE5710 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.c */; };
+		B60B69CB0B004CD58051E064 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = BACFD55A6911410EB0BC0083 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.h */; };
+		B79C4BBA092C4BE9A9F0416A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/widget.h */ = {isa = PBXBuildFile; fileRef = AE8DC16D2AF540BCBE7AF90A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/widget.h */; };
+		B7B611BC70D34C2CAFE87525 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = D7ED4E3746AA4368AF162ADA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_time.c */; };
+		BDD76ECB81F4421A9DA525B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp */ = {isa = PBXBuildFile; fileRef = 2ECC4278AAEB4CF0BC2B5D15 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp */; };
+		BEB01A7D159D43B9A539A8B9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp */ = {isa = PBXBuildFile; fileRef = 588E4894FA2740FDAC101993 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp */; };
+		C3254F11493E412A8806CD91 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp */ = {isa = PBXBuildFile; fileRef = 79E602596A5D47C9AE33F9B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp */; };
+		C518584BE477497CA1C15570 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/opengl.h */ = {isa = PBXBuildFile; fileRef = 4DD31B3F41C04F5DA40B1907 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/opengl.h */; };
+		C90A0A11EDF14C2A91DC4A37 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp */ = {isa = PBXBuildFile; fileRef = 9163EECCBEDD4D309070E19C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp */; };
+		CC9BE5AEDBCE46CCA1E33163 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = C561CB2608424595A5F2722D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/context.c */; };
+		D3C27EE9386D4C8A9AA6780F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp */ = {isa = PBXBuildFile; fileRef = 4254DA05E3324CA8A50BE581 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp */; };
+		D530B2E668FF4BEDAB62A668 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 1FB93CD50A5649B18801F438 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.h */; };
+		D89EFB772DBB4B3982AE6957 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 6D6B87A385A3467380237DB5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_monitor.m */; };
+		DE0AC38F4D4C49CE8905921D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/toolbutton.h */ = {isa = PBXBuildFile; fileRef = 8000F17B84AC41C4BFEF2CB6 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/toolbutton.h */; };
+		DFE29D49A57A42EB9065EAF3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp */ = {isa = PBXBuildFile; fileRef = B80A102ADEB04AA1B0C0374C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp */; };
+		E06EF8F0B2C340B0B6DF156A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/formhelper.h */ = {isa = PBXBuildFile; fileRef = 93E422DA276644EA8A315631 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/formhelper.h */; };
+		E557BECEA0BB4901994494A3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/common.h */ = {isa = PBXBuildFile; fileRef = 2D65DDEDB1524EEC8CDEB31B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/common.h */; };
+		E610B7B0875647E3A8643A4C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/textbox.h */ = {isa = PBXBuildFile; fileRef = 4361CAE5FE50423187167045 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/textbox.h */; };
+		E918964755DB4E9FACA903CC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 59E10D3E69B44DF8928CF417 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3.h */; };
+		EABC9D738F324AB494BB5D08 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c */ = {isa = PBXBuildFile; fileRef = FE367D60D3D549D2A3B8A2CF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c */; };
+		EDFC97C38F304997A678DD8A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp */ = {isa = PBXBuildFile; fileRef = 7C461632EC004588964D0845 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp */; };
+		F1C68DFFEBCC45CCAE0DA0C7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/progressbar.h */ = {isa = PBXBuildFile; fileRef = FEFCE3B4E829473CB4E69142 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/progressbar.h */; };
+		F43397A516904F1F8B8DCE33 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/label.h */ = {isa = PBXBuildFile; fileRef = D7EECC9B2AAF4348B0D50695 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/label.h */; };
+		F6D374D278B04C7EA248A050 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 7DBF883360FB4CDF9526DD3E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/window.c */; };
+		FA60D909F55A4E65B311A6A8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabwidget.h */ = {isa = PBXBuildFile; fileRef = A1FCBB969079421B819048ED /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabwidget.h */; };
+		FB7CDA87B7D0410090FB7A74 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/screen.h */ = {isa = PBXBuildFile; fileRef = 2DB5134E203640AF876A7FAB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/screen.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		267828C7551E431A813CE43B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7C4786C8C833443E97EB0F99 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		89A31431B8DB42D9AFC4F763 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BEABBECEE61C47CE97E98869 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		07899A2E9EA94B95A3EDB474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2FB05BF5C74D4799772B7F;
+			remoteInfo = ALL_BUILD;
+		};
+		0B3E0A3E01574FDF9A073205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7328EA9436DC4CDD946D075B;
+			remoteInfo = nanogui;
+		};
+		1ED3644AE6174CE2BCD05DDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FF801D0D204596928B0D6E;
+			remoteInfo = ZERO_CHECK;
+		};
+		50DAF2C0EB7540598451E61E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FF801D0D204596928B0D6E;
+			remoteInfo = ZERO_CHECK;
+		};
+		7355953F93E343CC8733853B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FA47CBC2BC400DB8B7D896;
+			remoteInfo = glfw_objects;
+		};
+		9895FFF1B1D84BF59B16B52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDE5D8154F24ADDB1493006;
+			remoteInfo = bin2c;
+		};
+		9B2794F7D6974508BF4644C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FA47CBC2BC400DB8B7D896;
+			remoteInfo = glfw_objects;
+		};
+		A09F8B47ECCF4DE1A82315C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80C4D65D8BD493A834DB739;
+			remoteInfo = glfw;
+		};
+		B37FD1A6C5884638B9028875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDE5D8154F24ADDB1493006;
+			remoteInfo = bin2c;
+		};
+		E5EC04F453954F19A594A3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5FA47CBC2BC400DB8B7D896;
+			remoteInfo = glfw_objects;
+		};
+		ED2609460F894A48BB50ECEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4604FCDE835146F193016EA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2FF801D0D204596928B0D6E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00739530F4944BC1B6FE5710 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = ext/glfw/src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		0225397EAA694924A54C9E6A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = ext/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		07D95C5B51C4459A9F55AD66 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkbox.cpp; path = src/checkbox.cpp; sourceTree = SOURCE_ROOT; };
+		07D9D2608B14484290C2339B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/stackedwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stackedwidget.h; path = include/nanogui/stackedwidget.h; sourceTree = SOURCE_ROOT; };
+		08CAB34521D44C28994124B0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/checkbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = checkbox.h; path = include/nanogui/checkbox.h; sourceTree = SOURCE_ROOT; };
+		09050A30FAF34F15B47E06C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popupbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popupbutton.h; path = include/nanogui/popupbutton.h; sourceTree = SOURCE_ROOT; };
+		0979B1AE041E4215AD715681 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layout.cpp; path = src/layout.cpp; sourceTree = SOURCE_ROOT; };
+		0AFEAA84CD0A489484FF67A2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorwheel.cpp; path = src/colorwheel.cpp; sourceTree = SOURCE_ROOT; };
+		0FB27B6C41AF4A628309D6CC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = ext/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		13AD744EA91E4E9AA6691959 /* glfw_objects */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw_objects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		16626B7938AD4F8BBD8882EB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textbox.cpp; path = src/textbox.cpp; sourceTree = SOURCE_ROOT; };
+		17A0172C35D94694BF604D8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = ext/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		1FB93CD50A5649B18801F438 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = ext/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		2D1CC8CE38F04E37B56E1CE1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabheader.h; path = include/nanogui/tabheader.h; sourceTree = SOURCE_ROOT; };
+		2D65DDEDB1524EEC8CDEB31B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = include/nanogui/common.h; sourceTree = SOURCE_ROOT; };
+		2DB5134E203640AF876A7FAB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/screen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = screen.h; path = include/nanogui/screen.h; sourceTree = SOURCE_ROOT; };
+		2ECC4278AAEB4CF0BC2B5D15 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imagepanel.cpp; path = src/imagepanel.cpp; sourceTree = SOURCE_ROOT; };
+		372BAB3BB7DC4E5A90FF395F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = darwin.mm; path = src/darwin.mm; sourceTree = SOURCE_ROOT; };
+		38AF1D1507AB4E2684422911 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src/nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = ext/nanovg/src/nanovg.c; sourceTree = SOURCE_ROOT; };
+		3A759F7EDF644AF68DD3F31F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cpp; path = src/serializer.cpp; sourceTree = SOURCE_ROOT; };
+		4254DA05E3324CA8A50BE581 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = combobox.cpp; path = src/combobox.cpp; sourceTree = SOURCE_ROOT; };
+		4361CAE5FE50423187167045 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/textbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textbox.h; path = include/nanogui/textbox.h; sourceTree = SOURCE_ROOT; };
+		439E787F286E478BB812CC3A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		43A8D4F92C444F0EB5B4134E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popup.h; path = include/nanogui/popup.h; sourceTree = SOURCE_ROOT; };
+		4550AFA5A81548599781E6B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imageview.cpp; path = src/imageview.cpp; sourceTree = SOURCE_ROOT; };
+		4B9BC4A88906459C89A0AAC8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imageview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imageview.h; path = include/nanogui/imageview.h; sourceTree = SOURCE_ROOT; };
+		4DD31B3F41C04F5DA40B1907 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = include/nanogui/serializer/opengl.h; sourceTree = SOURCE_ROOT; };
+		5260483186BD47BABEF09688 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/nanogui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanogui.h; path = include/nanogui/nanogui.h; sourceTree = SOURCE_ROOT; };
+		587A03CD73714699B4964742 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vscrollpanel.cpp; path = src/vscrollpanel.cpp; sourceTree = SOURCE_ROOT; };
+		588E4894FA2740FDAC101993 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = button.cpp; path = src/button.cpp; sourceTree = SOURCE_ROOT; };
+		58B31777E6E14AC2B695962E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = widget.cpp; path = src/widget.cpp; sourceTree = SOURCE_ROOT; };
+		59E10D3E69B44DF8928CF417 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = ext/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		5B8BFA66B3AD4B5C8D2455C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cpp; path = src/common.cpp; sourceTree = SOURCE_ROOT; };
+		5FE3EBC480EE4EF692CB08EA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/combobox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combobox.h; path = include/nanogui/combobox.h; sourceTree = SOURCE_ROOT; };
+		630738C8AFCD4F4A9B5C1037 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/theme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theme.h; path = include/nanogui/theme.h; sourceTree = SOURCE_ROOT; };
+		63203A1C8F5145B78C30F989 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorwheel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorwheel.h; path = include/nanogui/colorwheel.h; sourceTree = SOURCE_ROOT; };
+		66DB1C3F24F84C3D8C59FADD /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = screen.cpp; path = src/screen.cpp; sourceTree = SOURCE_ROOT; };
+		6D6B87A385A3467380237DB5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = ext/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		6DCDB09E29824DE68C323EF3 /* nanogui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnanogui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		760F0656ED0949218308404D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glutil.cpp; path = src/glutil.cpp; sourceTree = SOURCE_ROOT; };
+		78C58BE4CCD44C9D8834BEEC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/vscrollpanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vscrollpanel.h; path = include/nanogui/vscrollpanel.h; sourceTree = SOURCE_ROOT; };
+		79E602596A5D47C9AE33F9B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popup.cpp; path = src/popup.cpp; sourceTree = SOURCE_ROOT; };
+		7C076CBC5C564BE6BDA8D6B3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../build/nanogui/ext_build/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		7C461632EC004588964D0845 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorpicker.cpp; path = src/colorpicker.cpp; sourceTree = SOURCE_ROOT; };
+		7D7836A7DE4244859681B703 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = label.cpp; path = src/label.cpp; sourceTree = SOURCE_ROOT; };
+		7DBF883360FB4CDF9526DD3E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = ext/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		8000F17B84AC41C4BFEF2CB6 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/toolbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toolbutton.h; path = include/nanogui/toolbutton.h; sourceTree = SOURCE_ROOT; };
+		818E870E379445189806C544 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window.h; path = include/nanogui/window.h; sourceTree = SOURCE_ROOT; };
+		852089AD8E5749C59EB73239 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		871B7D20E45843C2A8076256 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabheader.cpp; path = src/tabheader.cpp; sourceTree = SOURCE_ROOT; };
+		87D964A9CA9244E086D81421 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = src/graph.cpp; sourceTree = SOURCE_ROOT; };
+		9077F8B7BC8B46D296186846 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = ext/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		9163EECCBEDD4D309070E19C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window.cpp; path = src/window.cpp; sourceTree = SOURCE_ROOT; };
+		917FCE8011D34768B862302B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = ext/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		93E422DA276644EA8A315631 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/formhelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = formhelper.h; path = include/nanogui/formhelper.h; sourceTree = SOURCE_ROOT; };
+		95EF1AA425A54ABE96E96FCC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = ext/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		97D22750CB39484EB9B98F42 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ext/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97EE377736ED4EBAAEC8BB37 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stackedwidget.cpp; path = src/stackedwidget.cpp; sourceTree = SOURCE_ROOT; };
+		9C878A78B94B43F6B937B1E3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = theme.cpp; path = src/theme.cpp; sourceTree = SOURCE_ROOT; };
+		9CFDD9ED75D942B2B1A061FE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = ext/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		9F7E9270C5F7479CA410B8D0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = ext/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		A1FCBB969079421B819048ED /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabwidget.h; path = include/nanogui/tabwidget.h; sourceTree = SOURCE_ROOT; };
+		A4C76790A61A4544A10CEE8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slider.cpp; path = src/slider.cpp; sourceTree = SOURCE_ROOT; };
+		A6FE4EDEBDB6444CB692F90B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = include/nanogui/opengl.h; sourceTree = SOURCE_ROOT; };
+		ACBC10A6A15A40E5B999BE45 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = include/nanogui/graph.h; sourceTree = SOURCE_ROOT; };
+		ADD17DBA51304D5CB1DEB887 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = ext/glfw/src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		AE8DC16D2AF540BCBE7AF90A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/widget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = widget.h; path = include/nanogui/widget.h; sourceTree = SOURCE_ROOT; };
+		AFFF8B3C7BC847329696A7B8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = messagedialog.cpp; path = src/messagedialog.cpp; sourceTree = SOURCE_ROOT; };
+		B140C9D5C9E940A19D6B70B7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popupbutton.cpp; path = src/popupbutton.cpp; sourceTree = SOURCE_ROOT; };
+		B370265D9DB7482BB6963D22 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/messagedialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = messagedialog.h; path = include/nanogui/messagedialog.h; sourceTree = SOURCE_ROOT; };
+		B80A102ADEB04AA1B0C0374C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = progressbar.cpp; path = src/progressbar.cpp; sourceTree = SOURCE_ROOT; };
+		B9BB047F511B45B0A4BD9B19 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/button.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = button.h; path = include/nanogui/button.h; sourceTree = SOURCE_ROOT; };
+		BA55741BC7E748AEB02CC6A4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imagepanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imagepanel.h; path = include/nanogui/imagepanel.h; sourceTree = SOURCE_ROOT; };
+		BA607CCB526D491588578FC9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ext/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BACFD55A6911410EB0BC0083 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = ext/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		C03631E5929643DB9573CB53 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/layout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = layout.h; path = include/nanogui/layout.h; sourceTree = SOURCE_ROOT; };
+		C561CB2608424595A5F2722D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = ext/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		C935D8EFD6F54C44B0BD4DB9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabwidget.cpp; path = src/tabwidget.cpp; sourceTree = SOURCE_ROOT; };
+		D1B9C6F12CB94A26AF587316 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = ext/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		D27A8846085A4EC6BFDD41A3 /* bin2c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = bin2c; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A15022E25A4A5FB9E2B070 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55AFB2BD3AA403499760270 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = ext/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		D7ED4E3746AA4368AF162ADA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = ext/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		D7EECC9B2AAF4348B0D50695 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/label.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = label.h; path = include/nanogui/label.h; sourceTree = SOURCE_ROOT; };
+		D856A15CDB6541C49140AAC2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorpicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorpicker.h; path = include/nanogui/colorpicker.h; sourceTree = SOURCE_ROOT; };
+		DC84EF984130482CA65D963C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/sparse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sparse.h; path = include/nanogui/serializer/sparse.h; sourceTree = SOURCE_ROOT; };
+		DF789AD666D848F1A41CF4EE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = nanogui_resources.cpp.rule; path = ../../build/nanogui/nanogui_resources.cpp.rule; sourceTree = SOURCE_ROOT; };
+		E8D8FE4E68C247AE87927BC4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = include/nanogui/serializer/core.h; sourceTree = SOURCE_ROOT; };
+		EA59B22FBFA44655AEB8C785 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/slider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slider.h; path = include/nanogui/slider.h; sourceTree = SOURCE_ROOT; };
+		F738B02A5BB94DDF9F9F4F33 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/glutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glutil.h; path = include/nanogui/glutil.h; sourceTree = SOURCE_ROOT; };
+		F823C3C30DE547C0B263CA09 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = ext/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		F9550DBB3A8C4D5A8E399A7B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nanogui_resources.cpp; path = ../../build/nanogui/nanogui_resources.cpp; sourceTree = SOURCE_ROOT; };
+		F9F7BC0A4D594EA78D526ED1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE367D60D3D549D2A3B8A2CF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bin2c.c; path = resources/bin2c.c; sourceTree = SOURCE_ROOT; };
+		FEFCE3B4E829473CB4E69142 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/progressbar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = progressbar.h; path = include/nanogui/progressbar.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E414E38867F4AB5813538C7 /* glfw_objects */ = {
+			isa = PBXGroup;
+			children = (
+				42ACD1C454F14EF9914E1C69 /* Source Files */,
+				A4279F928C954E65B1BC7B96 /* Header Files */,
+				97D22750CB39484EB9B98F42 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw_objects;
+			sourceTree = "<group>";
+		};
+		114F24CEE69C4D559F7917A7 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				818F54A4DD124A7F956860C6 /* nanogui */,
+				899AB1C41F114AF1939083B5 /* bin2c */,
+				17BE94464BDD44108BA66C0F /* glfw */,
+				0E414E38867F4AB5813538C7 /* glfw_objects */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		17BE94464BDD44108BA66C0F /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				BA607CCB526D491588578FC9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		42ACD1C454F14EF9914E1C69 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				917FCE8011D34768B862302B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_init.m */,
+				0FB27B6C41AF4A628309D6CC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.m */,
+				6D6B87A385A3467380237DB5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_monitor.m */,
+				D7ED4E3746AA4368AF162ADA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_time.c */,
+				F823C3C30DE547C0B263CA09 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_window.m */,
+				C561CB2608424595A5F2722D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/context.c */,
+				9CFDD9ED75D942B2B1A061FE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/init.c */,
+				D55AFB2BD3AA403499760270 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/input.c */,
+				17A0172C35D94694BF604D8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/monitor.c */,
+				9077F8B7BC8B46D296186846 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.m */,
+				00739530F4944BC1B6FE5710 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.c */,
+				95EF1AA425A54ABE96E96FCC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/vulkan.c */,
+				7DBF883360FB4CDF9526DD3E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		52C6701167894729889DDAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27A8846085A4EC6BFDD41A3 /* bin2c */,
+				D4A15022E25A4A5FB9E2B070 /* glfw */,
+				13AD744EA91E4E9AA6691959 /* glfw_objects */,
+				6DCDB09E29824DE68C323EF3 /* nanogui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC4440D5F4A4793941BF859 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6765D8EBAE154675B0AC937D /* CMake Rules */,
+				439E787F286E478BB812CC3A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		663D6E29E0844749BCBAA0EF = {
+			isa = PBXGroup;
+			children = (
+				114F24CEE69C4D559F7917A7 /* dependencies */,
+				5BC4440D5F4A4793941BF859 /* ALL_BUILD */,
+				52C6701167894729889DDAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6765D8EBAE154675B0AC937D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		818F54A4DD124A7F956860C6 /* nanogui */ = {
+			isa = PBXGroup;
+			children = (
+				D53D5B65658C43E4B163030D /* Source Files */,
+				E7CE3E47A5C74FBE8D330DB3 /* Header Files */,
+				B18A74FA1E4041219694EEA2 /* CMake Rules */,
+				F9F7BC0A4D594EA78D526ED1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */,
+			);
+			name = nanogui;
+			sourceTree = "<group>";
+		};
+		899AB1C41F114AF1939083B5 /* bin2c */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFE681F914405290236B2C /* Source Files */,
+				852089AD8E5749C59EB73239 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/CMakeLists.txt */,
+			);
+			name = bin2c;
+			sourceTree = "<group>";
+		};
+		A4279F928C954E65B1BC7B96 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C076CBC5C564BE6BDA8D6B3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/glfw_config.h */,
+				59E10D3E69B44DF8928CF417 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3.h */,
+				0225397EAA694924A54C9E6A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include/GLFW/glfw3native.h */,
+				BACFD55A6911410EB0BC0083 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.h */,
+				9F7E9270C5F7479CA410B8D0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_platform.h */,
+				D1B9C6F12CB94A26AF587316 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/internal.h */,
+				1FB93CD50A5649B18801F438 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.h */,
+				ADD17DBA51304D5CB1DEB887 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B18A74FA1E4041219694EEA2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				DF789AD666D848F1A41CF4EE /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D53D5B65658C43E4B163030D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9550DBB3A8C4D5A8E399A7B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp */,
+				38AF1D1507AB4E2684422911 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src/nanovg.c */,
+				588E4894FA2740FDAC101993 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp */,
+				07D95C5B51C4459A9F55AD66 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp */,
+				7C461632EC004588964D0845 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp */,
+				0AFEAA84CD0A489484FF67A2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp */,
+				4254DA05E3324CA8A50BE581 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp */,
+				5B8BFA66B3AD4B5C8D2455C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp */,
+				372BAB3BB7DC4E5A90FF395F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm */,
+				760F0656ED0949218308404D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp */,
+				87D964A9CA9244E086D81421 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp */,
+				2ECC4278AAEB4CF0BC2B5D15 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp */,
+				4550AFA5A81548599781E6B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp */,
+				7D7836A7DE4244859681B703 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp */,
+				0979B1AE041E4215AD715681 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp */,
+				AFFF8B3C7BC847329696A7B8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp */,
+				79E602596A5D47C9AE33F9B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp */,
+				B140C9D5C9E940A19D6B70B7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp */,
+				B80A102ADEB04AA1B0C0374C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp */,
+				66DB1C3F24F84C3D8C59FADD /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp */,
+				3A759F7EDF644AF68DD3F31F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp */,
+				A4C76790A61A4544A10CEE8B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp */,
+				97EE377736ED4EBAAEC8BB37 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp */,
+				871B7D20E45843C2A8076256 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp */,
+				C935D8EFD6F54C44B0BD4DB9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp */,
+				16626B7938AD4F8BBD8882EB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp */,
+				9C878A78B94B43F6B937B1E3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp */,
+				587A03CD73714699B4964742 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp */,
+				58B31777E6E14AC2B695962E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp */,
+				9163EECCBEDD4D309070E19C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E2BFE681F914405290236B2C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE367D60D3D549D2A3B8A2CF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E7CE3E47A5C74FBE8D330DB3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB047F511B45B0A4BD9B19 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/button.h */,
+				08CAB34521D44C28994124B0 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/checkbox.h */,
+				D856A15CDB6541C49140AAC2 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorpicker.h */,
+				63203A1C8F5145B78C30F989 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/colorwheel.h */,
+				5FE3EBC480EE4EF692CB08EA /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/combobox.h */,
+				2D65DDEDB1524EEC8CDEB31B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/common.h */,
+				93E422DA276644EA8A315631 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/formhelper.h */,
+				F738B02A5BB94DDF9F9F4F33 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/glutil.h */,
+				ACBC10A6A15A40E5B999BE45 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/graph.h */,
+				BA55741BC7E748AEB02CC6A4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imagepanel.h */,
+				4B9BC4A88906459C89A0AAC8 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/imageview.h */,
+				D7EECC9B2AAF4348B0D50695 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/label.h */,
+				C03631E5929643DB9573CB53 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/layout.h */,
+				B370265D9DB7482BB6963D22 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/messagedialog.h */,
+				5260483186BD47BABEF09688 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/nanogui.h */,
+				A6FE4EDEBDB6444CB692F90B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/opengl.h */,
+				43A8D4F92C444F0EB5B4134E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popup.h */,
+				09050A30FAF34F15B47E06C9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/popupbutton.h */,
+				FEFCE3B4E829473CB4E69142 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/progressbar.h */,
+				2DB5134E203640AF876A7FAB /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/screen.h */,
+				E8D8FE4E68C247AE87927BC4 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/core.h */,
+				4DD31B3F41C04F5DA40B1907 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/opengl.h */,
+				DC84EF984130482CA65D963C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/serializer/sparse.h */,
+				EA59B22FBFA44655AEB8C785 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/slider.h */,
+				07D9D2608B14484290C2339B /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/stackedwidget.h */,
+				2D1CC8CE38F04E37B56E1CE1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabheader.h */,
+				A1FCBB969079421B819048ED /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/tabwidget.h */,
+				4361CAE5FE50423187167045 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/textbox.h */,
+				630738C8AFCD4F4A9B5C1037 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/theme.h */,
+				8000F17B84AC41C4BFEF2CB6 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/toolbutton.h */,
+				78C58BE4CCD44C9D8834BEEC /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/vscrollpanel.h */,
+				AE8DC16D2AF540BCBE7AF90A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/widget.h */,
+				818E870E379445189806C544 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include/nanogui/window.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7328EA9436DC4CDD946D075B /* nanogui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716A3CF75E224C55A4BC1968 /* Build configuration list for PBXNativeTarget "nanogui" */;
+			buildPhases = (
+				A04FC33132D646BC916BE9D6 /* CMake Rules */,
+				C79E68DECE9A4C70BDBC3650 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466B4618F8AC44168BDE83EA /* PBXTargetDependency */,
+				7BE01935FCFC49EEAF327435 /* PBXTargetDependency */,
+				930871B677AF4DE4A7A76B6E /* PBXTargetDependency */,
+			);
+			name = nanogui;
+			productName = nanogui;
+			productReference = 6DCDB09E29824DE68C323EF3 /* nanogui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5FA47CBC2BC400DB8B7D896 /* glfw_objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2605B3D9B77943D6942836FC /* Build configuration list for PBXNativeTarget "glfw_objects" */;
+			buildPhases = (
+				95D8CAFD79A14738AAE3EABA /* Sources */,
+				4CFE793CD6DE495683C2B603 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw_objects;
+			productName = glfw_objects;
+			productReference = 13AD744EA91E4E9AA6691959 /* glfw_objects */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFDE5D8154F24ADDB1493006 /* bin2c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F56BF6CAD04AA9A22A8E08 /* Build configuration list for PBXNativeTarget "bin2c" */;
+			buildPhases = (
+				D7E30F53E27C4A37A52D76C8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6925190F2D4E3B962BC7B4 /* PBXTargetDependency */,
+			);
+			name = bin2c;
+			productName = bin2c;
+			productReference = D27A8846085A4EC6BFDD41A3 /* bin2c */;
+			productType = "com.apple.product-type.tool";
+		};
+		B80C4D65D8BD493A834DB739 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117C81D17530415F8E88D4F7 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9141759EBACA4556979ECED9 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = D4A15022E25A4A5FB9E2B070 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4604FCDE835146F193016EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = 0DA985B239994D969F950376 /* Build configuration list for PBXProject "NanoGUI" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				267828C7551E431A813CE43B /* Debug */,
+				89A31431B8DB42D9AFC4F763 /* Release */,
+				7C4786C8C833443E97EB0F99 /* MinSizeRel */,
+				BEABBECEE61C47CE97E98869 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 663D6E29E0844749BCBAA0EF;
+			projectDirPath = ../../externals/nanogui;
+			projectRoot = "";
+			targets = (
+				5F2FB05BF5C74D4799772B7F /* ALL_BUILD */,
+				D2FF801D0D204596928B0D6E /* ZERO_CHECK */,
+				AFDE5D8154F24ADDB1493006 /* bin2c */,
+				B80C4D65D8BD493A834DB739 /* glfw */,
+				A5FA47CBC2BC400DB8B7D896 /* glfw_objects */,
+				8BE8DD9B341B4E5991533230 /* install */,
+				7328EA9436DC4CDD946D075B /* nanogui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA0D9C5FA854B1E8C864D01 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -f /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4CFE793CD6DE495683C2B603 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src -f /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/CMakeScripts/glfw_objects_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7F8C79334049403EADABB11E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -f /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9BABB66FC1744D8FAE634517 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9CAC1BAEDD614952AF9CC126 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A04FC33132D646BC916BE9D6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -f /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/CMakeScripts/nanogui_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E75751847EC64AAC9DC4333B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui -f /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EA72016A71194EA68255408C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95D8CAFD79A14738AAE3EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E0E86A4DC942D0A901157E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_init.m */,
+				50295A8C13FC4DCEBDBFA018 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_joystick.m */,
+				D89EFB772DBB4B3982AE6957 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_monitor.m */,
+				B7B611BC70D34C2CAFE87525 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_time.c */,
+				73D258DA5EFB411DA428A083 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/cocoa_window.m */,
+				CC9BE5AEDBCE46CCA1E33163 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/context.c */,
+				A8D49C3DE2C44FCA807FE507 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/init.c */,
+				05FAF6B46BE04F9A96D5381A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/input.c */,
+				21388B5CAD384C8AA919ED38 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/monitor.c */,
+				42C09E6D194B472CBD5A44D5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/nsgl_context.m */,
+				AE414A129EB44C0F8444C0BF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/posix_tls.c */,
+				7B3498693FA44C45B435B516 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/vulkan.c */,
+				F6D374D278B04C7EA248A050 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79E68DECE9A4C70BDBC3650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA5C7E2EDE44F549F685D96 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/nanogui_resources.cpp */,
+				7A650BD10258457BB9E98AF5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src/nanovg.c */,
+				BEB01A7D159D43B9A539A8B9 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/button.cpp */,
+				8C0C0A72B2F546EF803C001E /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/checkbox.cpp */,
+				EDFC97C38F304997A678DD8A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorpicker.cpp */,
+				7E2519FC425B4C23A62CDB87 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/colorwheel.cpp */,
+				D3C27EE9386D4C8A9AA6780F /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/combobox.cpp */,
+				8A8342BCC85F453888C6051C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/common.cpp */,
+				44D35EE4A11F4577883E6391 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/darwin.mm */,
+				A7D87B7AFC7543A498B6CE18 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/glutil.cpp */,
+				41F7A55CCFA2462CA7301279 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/graph.cpp */,
+				BDD76ECB81F4421A9DA525B1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imagepanel.cpp */,
+				4513CB63F4C944F5BAFF0185 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/imageview.cpp */,
+				7BE73290AFDA411EB2369506 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/label.cpp */,
+				A901C5FE3F10465F909DE5F1 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/layout.cpp */,
+				30193297052A4B55938AAB9C /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/messagedialog.cpp */,
+				C3254F11493E412A8806CD91 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popup.cpp */,
+				20E3F0ADB24E49F8B2CAE101 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/popupbutton.cpp */,
+				DFE29D49A57A42EB9065EAF3 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/progressbar.cpp */,
+				2EBE0A5BD03E454899254936 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/screen.cpp */,
+				82EBF530FFB245D1AE8841C5 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/serializer.cpp */,
+				3027720955EF4A4C8DDDA5EF /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/slider.cpp */,
+				1DB53D5ABF2F4BB28593870A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/stackedwidget.cpp */,
+				5E07676546F042A58CA03D67 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabheader.cpp */,
+				3BA416A705E04BB4BDD7392A /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/tabwidget.cpp */,
+				7375F1FA60B64338A080B269 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/textbox.cpp */,
+				7C31BEE2B46445BDB3FA8F4D /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/theme.cpp */,
+				99CA7E11262C4C69B5573DC7 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/vscrollpanel.cpp */,
+				51B0D6FDFD5F4770A861D336 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/widget.cpp */,
+				C90A0A11EDF14C2A91DC4A37 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/src/window.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E30F53E27C4A37A52D76C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABC9D738F324AB494BB5D08 /* /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/resources/bin2c.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180916FE178B4DEAB8C67037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80C4D65D8BD493A834DB739 /* glfw */;
+			targetProxy = A09F8B47ECCF4DE1A82315C1 /* PBXContainerItemProxy */;
+		};
+		1869B822200748328192A642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FF801D0D204596928B0D6E /* ZERO_CHECK */;
+			targetProxy = 1ED3644AE6174CE2BCD05DDE /* PBXContainerItemProxy */;
+		};
+		1B6925190F2D4E3B962BC7B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FF801D0D204596928B0D6E /* ZERO_CHECK */;
+			targetProxy = 50DAF2C0EB7540598451E61E /* PBXContainerItemProxy */;
+		};
+		2D3B207DBB4948B7ABBDDBDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7328EA9436DC4CDD946D075B /* nanogui */;
+			targetProxy = 0B3E0A3E01574FDF9A073205 /* PBXContainerItemProxy */;
+		};
+		3077A224B9E34448B86ABCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2FB05BF5C74D4799772B7F /* ALL_BUILD */;
+			targetProxy = 07899A2E9EA94B95A3EDB474 /* PBXContainerItemProxy */;
+		};
+		3A933EF16DC74B52870EC00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FA47CBC2BC400DB8B7D896 /* glfw_objects */;
+			targetProxy = E5EC04F453954F19A594A3A1 /* PBXContainerItemProxy */;
+		};
+		466B4618F8AC44168BDE83EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDE5D8154F24ADDB1493006 /* bin2c */;
+			targetProxy = B37FD1A6C5884638B9028875 /* PBXContainerItemProxy */;
+		};
+		7BE01935FCFC49EEAF327435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FA47CBC2BC400DB8B7D896 /* glfw_objects */;
+			targetProxy = 7355953F93E343CC8733853B /* PBXContainerItemProxy */;
+		};
+		9141759EBACA4556979ECED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5FA47CBC2BC400DB8B7D896 /* glfw_objects */;
+			targetProxy = 9B2794F7D6974508BF4644C0 /* PBXContainerItemProxy */;
+		};
+		930871B677AF4DE4A7A76B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2FF801D0D204596928B0D6E /* ZERO_CHECK */;
+			targetProxy = ED2609460F894A48BB50ECEE /* PBXContainerItemProxy */;
+		};
+		940D6B0565E34C40BB5CD618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDE5D8154F24ADDB1493006 /* bin2c */;
+			targetProxy = 9895FFF1B1D84BF59B16B52C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B2A715D43340D2B0579506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations    -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		093CB05A6DFB403FA3D93BC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/build;
+			};
+			name = RelWithDebInfo;
+		};
+		0B592DBBB4A04A19A633C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0D7B7D7E92AE435CB2F61FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/build;
+			};
+			name = Debug;
+		};
+		10272A632CE3458D91C17AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -w -Wall -Wextra -std=c++14    '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		16F451664E8940BAA2BF1FFC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		18A5304FE1CD47E39F853F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1BAC0D8C72E5434787F192E0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -w -Wall -Wextra -std=c++14     -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		235F726C63DE48E6B6507D20 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/NanoGUI.build/MinSizeRel/glfw_objects.build/;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -Wall -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		384D7468B23E4417925CFCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3897BF525FC7420784611BF7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		549BF74C8EAB4EC7A4B86D29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5C852DC61AB644BA822B1501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5FF39283000F403FB6976FBC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6207D59481FF49C6B2759BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6443EE6466D74A29B4682296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		668CD553E71E41029AA843CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		68FC83AFD6024EADADAF9C12 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6A0458C37BB448378DEC38B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7B4105FED59A4DF89726423B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7EBBA70F342B4D829EBCA8B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		933AAF753A6E4452A70F35FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/NanoGUI.build/Release/glfw_objects.build/;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG -Wall -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9A072C43D1CA44568A3A75EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A04C4EF660994C1B9C167309 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BC01FF4670B04129AE250C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C7317463EE304CF79E1E90AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -w -Wall -Wextra -std=c++14     -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CBCC555219B74BF1B6732B02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/NanoGUI.build/Debug/glfw_objects.build/;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations    -Wall -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DF623C40631A435582DA2FE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/eigen,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/nanovg/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/coro);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -w -Wall -Wextra -std=c++14        -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/context.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/input.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/vulkan.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_init.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_joystick.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_monitor.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_window.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/cocoa_time.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/posix_tls.o /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/glfw_objects.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/nsgl_context.o";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F1D24C743F2B474F9186EE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9BE233E3E6644DDA09B0B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/build;
+			};
+			name = Release;
+		};
+		FA268CB0FAA6457C95C62D3B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/build;
+			};
+			name = MinSizeRel;
+		};
+		FA95BFAA11CC4D6AA1802C0D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src/NanoGUI.build/RelWithDebInfo/glfw_objects.build/;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/include,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/externals/nanogui/ext/glfw/src,/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG -Wall -Wno-deprecated-declarations  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise3/build/nanogui/ext_build/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA985B239994D969F950376 /* Build configuration list for PBXProject "NanoGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7B7D7E92AE435CB2F61FE7 /* Debug */,
+				F9BE233E3E6644DDA09B0B11 /* Release */,
+				FA268CB0FAA6457C95C62D3B /* MinSizeRel */,
+				093CB05A6DFB403FA3D93BC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		117C81D17530415F8E88D4F7 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B2A715D43340D2B0579506 /* Debug */,
+				6207D59481FF49C6B2759BFD /* Release */,
+				68FC83AFD6024EADADAF9C12 /* MinSizeRel */,
+				5FF39283000F403FB6976FBC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		162FE1F98F29437B9375C478 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D24C743F2B474F9186EE72 /* Debug */,
+				0B592DBBB4A04A19A633C831 /* Release */,
+				668CD553E71E41029AA843CB /* MinSizeRel */,
+				3897BF525FC7420784611BF7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2605B3D9B77943D6942836FC /* Build configuration list for PBXNativeTarget "glfw_objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCC555219B74BF1B6732B02 /* Debug */,
+				933AAF753A6E4452A70F35FC /* Release */,
+				235F726C63DE48E6B6507D20 /* MinSizeRel */,
+				FA95BFAA11CC4D6AA1802C0D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54519FAAA9EA4DEBA3A43073 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C852DC61AB644BA822B1501 /* Debug */,
+				BC01FF4670B04129AE250C8B /* Release */,
+				9A072C43D1CA44568A3A75EA /* MinSizeRel */,
+				549BF74C8EAB4EC7A4B86D29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5B4D80700F6F4BCF89BD853C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A5304FE1CD47E39F853F78 /* Debug */,
+				6A0458C37BB448378DEC38B7 /* Release */,
+				7EBBA70F342B4D829EBCA8B8 /* MinSizeRel */,
+				A04C4EF660994C1B9C167309 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		716A3CF75E224C55A4BC1968 /* Build configuration list for PBXNativeTarget "nanogui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10272A632CE3458D91C17AAA /* Debug */,
+				C7317463EE304CF79E1E90AC /* Release */,
+				1BAC0D8C72E5434787F192E0 /* MinSizeRel */,
+				DF623C40631A435582DA2FE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89F56BF6CAD04AA9A22A8E08 /* Build configuration list for PBXNativeTarget "bin2c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6443EE6466D74A29B4682296 /* Debug */,
+				384D7468B23E4417925CFCE5 /* Release */,
+				7B4105FED59A4DF89726423B /* MinSizeRel */,
+				16F451664E8940BAA2BF1FFC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4604FCDE835146F193016EA5 /* Project object */;
+}

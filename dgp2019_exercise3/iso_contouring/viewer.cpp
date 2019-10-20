@@ -50,9 +50,8 @@ std::vector<int> compute_sign(std::vector<Point> tri_pos, std::function<Scalar(P
 
 
     for(auto v_pos: tri_pos){
-        int k = 0;
         val = iso_value(v_pos);
-        sign[k] = (val > 0) - (val < 0);
+        sign.push_back((val > 0) - (val < 0));
     }
 
     return sign;
@@ -61,17 +60,13 @@ std::vector<int> compute_sign(std::vector<Point> tri_pos, std::function<Scalar(P
 
 Point compute_zero_point(Point pos1, Point pos2, std::function<Scalar(Point)> iso_value)
 {
-    Point interpolated_point;
-    float slope_tmp(0);
+    Point interpolated_point(0,0,0);
+    float l = std::abs(iso_value(pos1))/(std::abs(iso_value(pos1)) + std::abs(iso_value(pos2)));
 
-    slope_tmp = (iso_value(pos2) - iso_value(pos1)) / (pos2.x - pos1.x);
-    interpolated_point.x = pos1.x - iso_value(pos1) / slope_tmp;
+    interpolated_point = (1 - l) * pos1 + l * pos2;
 
-    slope_tmp = (iso_value(pos2) - iso_value(pos1)) / (pos2.y - pos1.y);
-    interpolated_point.y = pos1.y - iso_value(pos1) / slope_tmp;
-
-    slope_tmp = (iso_value(pos2) - iso_value(pos1)) / (pos2.z - pos1.z);
-    interpolated_point.z = pos1.z - iso_value(pos1) / slope_tmp;
+//    slope_tmp = (iso_value(pos2) - iso_value(pos1)) / (pos2.z - pos1.z);
+//    interpolated_point.z = pos1.z - iso_value(pos1) / slope_tmp;
 
     return interpolated_point;
 }
@@ -122,10 +117,8 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
     std::vector<Point> current_triangle(3);
     std::vector<int> current_signs(3);
 
-    Point *init_point(0);
-    Point *end_point(0);
-
-    float slope_tmp(0);
+    Point init_point;
+    Point end_point;
 
     for(auto triangle_id: triangle_ids) {
 
@@ -137,23 +130,23 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
 
         if(current_signs[0] * current_signs[1] != 1) {
             
-            init_point = &compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
+            init_point = compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
 
             if(current_signs[1] * current_signs[2] != 1) {
                 
-                end_point = &compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
+                end_point = compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
 
-                segment_points.push_back(*init_point);
-                segment_points.push_back(*end_point);
+                segment_points.push_back(init_point);
+                segment_points.push_back(end_point);
 
             }
 
             else if(current_signs[0] * current_signs[2] != 1) {
                 
-                end_point = &compute_zero_point(current_triangle[0], current_triangle[2], iso_value);
+                end_point = compute_zero_point(current_triangle[0], current_triangle[2], iso_value);
 
-                segment_points.push_back(*init_point);
-                segment_points.push_back(*end_point);
+                segment_points.push_back(init_point);
+                segment_points.push_back(end_point);
 
             }
 
@@ -161,14 +154,14 @@ void Viewer::calc_iso_contouring(std::function<Scalar(Point)> iso_value)
 
         else if(current_signs[1] * current_signs[2] != 1) {
             
-            init_point = &compute_zero_point(current_triangle[0], current_triangle[1], iso_value);
+            init_point = compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
 
             if(current_signs[0] * current_signs[2] != 1) {
                 
-                end_point = &compute_zero_point(current_triangle[1], current_triangle[2], iso_value);
+                end_point = compute_zero_point(current_triangle[0], current_triangle[2], iso_value);
 
-                segment_points.push_back(*init_point);
-                segment_points.push_back(*end_point);
+                segment_points.push_back(init_point);
+                segment_points.push_back(end_point);
 
             }
 

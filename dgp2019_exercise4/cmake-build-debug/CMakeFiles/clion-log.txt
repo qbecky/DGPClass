@@ -1,0 +1,42 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using Clang compiler on (Apple)
+-- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework   
+CMake Warning at cmake/ConfigureGLFW3.cmake:8 (message):
+  GLFW3 not found
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (include)
+
+
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+GLEW_LIBRARIES
+    linked by target "smoothing_test" in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+    linked by target "smoothing" in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+GLFW3_INCLUDE_DIRS
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+   used as include directory in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+GLFW3_LIBRARIES
+    linked by target "smoothing_test" in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+    linked by target "smoothing" in directory /Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/curve_smoothing
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/qbecker/Documents/Fall2019/DGPClass/dgp2019_exercise4/cmake-build-debug/CMakeFiles/CMakeOutput.log".

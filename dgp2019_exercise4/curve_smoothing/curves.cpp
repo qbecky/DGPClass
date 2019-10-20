@@ -31,6 +31,7 @@ struct MainWindow : public TrackballWindow {
         // where each column contains the x,y positions of a point.
 
         
+        
     }
 
     void osculatingCircle(double epsilon) {
